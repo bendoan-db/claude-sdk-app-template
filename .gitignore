@@ -1,0 +1,38 @@
+uv.toml
+e2e-chatbot-app-next/databricks.yml
+
+# Environment
+.env
+.env.*
+
+# Databricks
+.databricks/
+
+# Claude Code
+.claude/
+
+# AI Dev Kit
+.ai-dev-kit/
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# MCP
+.mcp.json
