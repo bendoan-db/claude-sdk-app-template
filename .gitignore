@@ -18,6 +18,10 @@ e2e-chatbot-app-next/databricks.yml
 .vscode/
 .idea/
 
+# Node / build output
+node_modules/
+dist/
+
 # Python
 __pycache__/
 *.pyc
