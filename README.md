@@ -1,4 +1,4 @@
-# Long-Running Responses API Agent
+# Claude Agent SDK Long-Running Responses App Template
 
 A long-running agent server built with the [Claude Agent SDK](https://docs.databricks.com/aws/en/generative-ai/agent-framework/) and [MLflow](https://mlflow.org/), deployed as a [Databricks App](https://docs.databricks.com/aws/en/dev-tools/databricks-apps/). Uses Claude Sonnet 4.6 via Databricks AI Gateway (`databricks-claude-sonnet-4-6`) and exposes the [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses) over FastAPI with background execution, Lakebase persistence, and stream resumption — enabling use cases where agent responses take minutes rather than seconds.
 
